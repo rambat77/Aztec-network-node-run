@@ -1,5 +1,5 @@
 # Aztec-sequencer-node-cslead
-One-click sequencer node run guide by *Crypto Syndicate*
+One-click sequencer node run guide by Aditya.
 
 Aztec is building a decentralized, privacy-focused network and the sequencer node is a key part of it. Running a sequencer helps produce and propose blocks using regular consumer hardware. This guide will walk you through setting one up on the testnet.
 
