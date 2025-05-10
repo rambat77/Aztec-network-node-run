@@ -1,5 +1,5 @@
 # Aztec-sequencer-node
-One-click sequencer node run guide by Aditya and thanks to the aztec team.
+One-click sequencer node run guide by Aditya singh and thanks to the aztec team.
 
 Aztec is building a decentralized, privacy-focused network and the sequencer node is a key part of it. Running a sequencer helps produce and propose blocks using regular consumer hardware. This guide will walk you through setting one up on the testnet.
 
@@ -47,7 +47,7 @@ Aztec is building a decentralized, privacy-focused network and the sequencer nod
 ```bash
 command -v curl >/dev/null 2>&1 || apt-get update && apt-get install -y curl; command -v wget >/dev/null 2>&1 || apt-get install -y wget
 ```
-➤Run your Aztec node using one of the following:
+➤Run your Aztec node using one of the following:(next day command)
 
 ```bash
 [ -f "aztec.sh" ] && rm aztec.sh; curl -sSL -o aztec.sh https://raw.githubusercontent.com/zunxbt/aztec-sequencer-node/main/aztec.sh && chmod +x aztec.sh && ./aztec.sh
@@ -96,6 +96,9 @@ curl -s -X POST -H 'Content-Type: application/json' -d '{"jsonrpc":"2.0","method
 ➤Register:
 ```bash
 aztec add-l1-validator \
+
+
+keep your alchemy url , chainstacks url , private key and wallet address at one place to start your command daily .
   --l1-rpc-urls SEPOLIA-RPC-URL \
   --private-key YOUR-PRIVATE-KEY \
   --attester YOUR-VALIDATOR-ADDRESS \
